@@ -167,7 +167,17 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "new-mens-full-zip-up-sweater-cardigan-stand-collar-lightweight-knitted-cardigan-casual-outerwear-casual-streetwear",
+          "mens-long-sleeve-sweaters-crew-neck-basic-lightweight-knitted-pullover-shirts-autumn-warm-streetwear-outdoor-jogger-coats",
+          "new-mens-stripe-shirt-long-sleeve-printing-breathable-t-shirts-lapel-basic-shirts-for-men-lightweight-hawaiian-shirt-streetwear",
+          "sweatwear-mens-sweater-solid-color-high-neck-pullover-knitted-warm-turtleneck-sweatwear-woolen-mens-winter-outdoor-basic-tops",
+          "summer-mens-solid-color-tshirt-new-short-sleeve-large-half-zipper-polo-shirts-for-men-lightweight-lapel-oversized-t-shirt",
+          "mens-quarter-zip-up-sweaters-slim-fit-lightweight-pullover-outdoor-mock-neck-tops-half-turtleneck-knitted-streetwear",
+          "autumn-mens-solid-color-sweaters-solid-color-half-zipper-knited-pullover-v-neck-long-sleeve-mens-winter-warm-streetwear",
+          "new-mens-long-sleeve-pullover-solid-color-half-zipper-sweaters-v-neck-knitted-sweater-men-oversized-breathable-streetwear",
+          "autum-men-turtlenecks-sweaters-knitwear-pullovers-solid-color-long-sleeved-sweater-male-casual-daily-warm-coats"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -195,7 +205,7 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "subheading": "",
             "content": "",
             "button_text": "",
             "button_url": "",
