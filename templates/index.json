@@ -15,15 +15,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Blue_skies_and_sky_blue_linen_are_a_match_f954dcb3-b796-4529-b87b-d7e42d7a0caa.jpg",
+            "image": "shopify://shop_images/Sea7b7a89bfa1410aa4776f9090549159Q.webp",
             "content_max_width": 640,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide title",
+            "subheading": "TIMELESS ELEGANCE",
+            "title": "ELEVATE YOUR STYLE",
             "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "SHOP BESTSELLERS",
+            "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -49,114 +49,13 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
-      ],
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "jackets",
             "subheading": "",
             "title": "",
             "url": "",
@@ -170,7 +69,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "tops",
             "subheading": "",
             "title": "",
             "url": "",
@@ -184,7 +83,50 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "polos",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gVGtmG": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_bq8aAY": {
+          "type": "collection",
+          "settings": {
+            "collection": "pants",
+            "image": "shopify://shop_images/S4749ffb3a5b8443c9818ccb640e025ebv.webp",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4bGVeN": {
+          "type": "collection",
+          "settings": {
+            "collection": "shorts",
             "subheading": "",
             "title": "",
             "url": "",
@@ -199,15 +141,18 @@
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3"
+        "collection-3",
+        "collection_gVGtmG",
+        "collection_bq8aAY",
+        "collection_4bGVeN"
       ],
       "settings": {
         "full_width": true,
         "stack_collections": false,
         "collections_per_row": 3,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "subheading": "",
-        "title": "Collection list",
+        "title": "SHOP BY CATEGORY",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -857,8 +802,6 @@
   },
   "order": [
     "slideshow",
-    "image-link-blocks",
-    "scrolling-text",
     "collection-list",
     "featured-collection",
     "impact-text",
