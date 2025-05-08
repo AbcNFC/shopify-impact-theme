@@ -15,13 +15,13 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Sea7b7a89bfa1410aa4776f9090549159Q.webp",
-            "content_max_width": 640,
+            "image": "shopify://shop_images/2025-05-08_10.39.29.png",
+            "content_max_width": 400,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "TIMELESS ELEGANCE",
             "title": "ELEVATE YOUR STYLE",
-            "heading_tag": "h0",
+            "heading_tag": "h3",
             "button_text": "SHOP BESTSELLERS",
             "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
@@ -205,7 +205,7 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "",
+            "subheading": "PREMIUM MATERIALS USED",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -239,18 +239,19 @@
         "1664424230c4756b0e-0": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "CRAFTED TO"
           }
         },
         "1664424230c4756b0e-1": {
           "type": "heading",
           "settings": {
-            "text": "Image with text overlay",
+            "text": "PERFECTION",
             "heading_tag": "h1"
           }
         },
         "1664424230c4756b0e-2": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
@@ -265,7 +266,8 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "sm",
+        "image": "shopify://shop_images/LAB_DAY.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -367,6 +369,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -378,6 +381,7 @@
     },
     "before-after-image": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -405,20 +409,20 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Share info about what your customers say about your products.",
-            "show_rating": false,
-            "rating": 4
+            "author": "Basil P.",
+            "content": "Shopping once every 2 months, and the clothing is top notch!",
+            "show_rating": true,
+            "rating": 5
           }
         },
         "16644243327ba53d2a-1": {
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "author": "",
-            "content": "Or share content about your promotion, offers...",
+            "author": "Emmanuel J.",
+            "content": "Pay less for the best quality? Hell yea!",
             "show_rating": false,
-            "rating": 4
+            "rating": 5
           }
         }
       },
