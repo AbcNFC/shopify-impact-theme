@@ -71,7 +71,7 @@
           "settings": {
             "collection": "tops",
             "subheading": "",
-            "title": "",
+            "title": "Tops",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -99,7 +99,7 @@
           "settings": {
             "collection": "shirts",
             "subheading": "",
-            "title": "",
+            "title": "Shirts",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
