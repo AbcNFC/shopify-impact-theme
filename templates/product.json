@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title": {
@@ -46,8 +47,16 @@
           "type": "separator",
           "settings": {}
         },
+        "collapsible_text_brQRwM": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.description }}"
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -76,13 +85,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "collapsible_text_brQRwM": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Description",
-            "content": "{{ product.description }}"
-          }
         }
       },
       "block_order": [
@@ -93,11 +95,11 @@
         "rating",
         "payment_terms",
         "separator",
+        "collapsible_text_brQRwM",
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "collapsible_text_brQRwM"
+        "buy_buttons"
       ],
       "settings": {
         "full_width": true,
