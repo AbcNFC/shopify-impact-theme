@@ -84,5 +84,43 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const addToCartButton = document.querySelector('[type="submit"][name="add"]');
+
+    if (!addToCartButton) return;
+
+    addToCartButton.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const variantId = document.querySelector('[name="id"]')?.value;
+
+      if (!variantId) {
+        alert("Variant ID is undefined");
+        return;
+      }
+
+      fetch("/cart/add.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          id: variantId,
+          quantity: 1
+        })
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("Added to cart:", data);
+        })
+        .catch((err) => {
+          console.error("Error adding to cart:", err);
+        });
+    });
+  });
+</script>
+
   </body>
 </html>
