@@ -39,7 +39,14 @@
     "product_info_alignment": "center",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "2137770210958296680": {
+        "type": "shopify://apps/debutify-product-reviews-qa/blocks/debutify_review_core/df08bded-40dd-47c1-88ee-4648245a6441",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Sound": {
